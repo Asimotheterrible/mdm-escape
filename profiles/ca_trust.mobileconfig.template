@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.security.root</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>org.local.ipadadmin.ca</string>
+      <key>PayloadUUID</key>
+      <string>REPLACE-WITH-NEW-UUID-1</string>
+      <key>PayloadDisplayName</key>
+      <string>iPad Admin Root CA</string>
+      <key>PayloadContent</key>
+      <data>
+<!-- base64 of certs/root.crt here (openssl base64 -in certs/root.crt) -->
+      </data>
+    </dict>
+  </array>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>org.local.ipadadmin.ca.profile</string>
+  <key>PayloadUUID</key>
+  <string>REPLACE-WITH-NEW-UUID-2</string>
+  <key>PayloadDisplayName</key>
+  <string>iPad Admin CA</string>
+  <key>PayloadDescription</key>
+  <string>Installs the local admin root CA.</string>
+</dict>
+</plist>
